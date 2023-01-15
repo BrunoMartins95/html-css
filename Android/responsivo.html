@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsvidade</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+
+        main {
+            background-color: white;
+            border-radius: 10px;
+
+            /*Aqui configuro que a lugura minima é 320 e maxima 800*/
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsvidade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque inventore deserunt, voluptates veritatis quam corrupti voluptatibus repellat eius atque odio, provident accusantium maxime hic quae, magnam tenetur cupiditate! Alias,.nom Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quibusdam voluptatum eveniet ex nesciunt a, dolorem accusamus alias voluptatem nihil at? Alias tempora provident sed cumque, consequatur temporibus placeat nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia a quisquam deserunt ab vel error dolore odit earum debitis dignissimos, nemo eaque quasi! Soluta voluptatibus, et quam blanditiis veritatis voluptatem!</p>
+
+        <picture>
+            <source media="(max-width: 500px)" srcset="imagens/irina-blok-pq.jpg"> <!--Aqui eu digo que a imagem pq vai até a largura de 500px após isso se usa a outra-->
+            <img src="imagens/irina-blok.jpg" alt="Irina-blok"></picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque inventore deserunt, voluptates veritatis quam corrupti voluptatibus repellat eius atque odio, provident accusantium maxime hic quae, magnam tenetur cupiditate! Alias,.nom Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quibusdam voluptatum eveniet ex nesciunt a, dolorem accusamus alias voluptatem nihil at? Alias tempora provident sed cumque, consequatur temporibus placeat nostrum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia a quisquam deserunt ab vel error dolore odit earum debitis dignissimos, nemo eaque quasi! Soluta voluptatibus, et quam blanditiis veritatis voluptatem!</p>
+    </main>
+    
+</body>
+</html>
