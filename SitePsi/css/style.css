@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family= família= Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700 & display=swap');
+
+
+h1, h2, h5 ,h3{
+    margin: 0px !important
+}
+
+a{
+    text-decoration: none !important;
+    color: #217573 !important;
+}
+
+hr {
+    color: white !important
+}
+
+#logo {
+    font-family: 'Roboto Mono', monoespaçado;
+    color: #217573;
+}
+
+body {
+    padding-top: 10px;
+    background-color: rgb(241, 241, 233) !important;
+    font-family: 'Roboto Mono', monoespaçado;
+}
+
+header img{
+    height: 54px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #217573;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: large;
+}
+
+header{
+    margin:auto;
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section #ImgMotivacao {
+    padding-top: 20px;
+    margin:auto;
+    max-width: 980px;
+    height: 600px;
+    display: flex;
+    
+}
+
+section #ImgPsicologa {
+    width: 485px;
+    height: 690px;
+    display: flex;
+   
+}
+
+#Apresentacao {
+    display: flex;
+    max-width: 980px;
+    margin:auto;
+    gap: 30px;
+}
+
+#Apresentacao {
+    display: flex;
+    max-width: 980px;
+    margin:auto;
+    gap: 30px;
+}
+
+#Apresentacao h2 {
+    color:  rgb(47, 140, 138);
+    font-family: 'Roboto Mono', monoespaçado;
+} 
+
+#Apresentacao h5 {
+    color: rgb(125,125,115);
+    font-family: 'Roboto Mono', monoespaçado;
+} 
+
+#Apresentacao p {
+    font-size: large;
+    font-weight: 50;
+    color: rgb(125,125,115);
+    font-family: 'Roboto Mono', monoespaçado;
+} 
+
+#TrataDiv {
+    font-family: 'Roboto Mono', monoespaçado;
+    background-color: rgb(47, 140, 138);
+}
+
+#Tratamentos {
+    background-color: rgb(47, 140, 138);
+    color: #F1F1E9;
+    display: flex;
+    max-width: 980px;
+    margin:auto;
+    gap: 30px;
+} 
+
+#Tratamentos div {
+    padding-left: 30px;
+}
+
+#Tratamentos p {
+    font-size: large;
+    font-weight: 50;
+}
+
+section #ImgConsultorio {
+    width: 495px;
+    height: 600px;
+    display: flex;
+   
+}
+
+
+
+#Tratamentos2 #DescTrata div{
+    background-color: rgb(47, 140, 138);
+    color: #F1F1E9;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size:2em;
+    width: 350px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#Tratamentos2 #DescTrata2 div{
+    background-color: rgb(47, 140, 138);
+    color: #F1F1E9;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size:2em;
+    width: 350px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#Tratamentos2 #DescTrata{
+    display: flex;
+    max-width: 980px;
+    margin:auto;
+    
+}
+
+#Tratamentos2 #DescTrata2{
+    display: flex;
+    max-width: 980px;
+    margin:auto;
+    
+}
+
+#DescTrata  span{
+    border-bottom: solid 5px white;
+    display: flex;
+    align-items: center;
+    border-image: linear-gradient(to right, rgb(47, 140, 138), white);
+    border-image-slice: 1;
+    
+}
+
+#DescTrata2  span{
+    border-bottom: solid 5px white;
+    display: flex;
+    align-items: center;
+    border-image: linear-gradient(to right, rgb(47, 140, 138), white);
+    border-image-slice: 1;
+    
+}
+
+#Depoimentos #Desc{
+    color:rgb(47, 140, 138);
+    height: 200px;
+    max-width: 980px;
+    margin:auto;
+    background-color:rgb(241, 241, 233) !important ;
+    font-family: 'Roboto Mono', monoespaçado;
+    text-align: center;
+}
+
+#DescDepoimentos {
+    color:rgb(47, 140, 138);
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size: 1.2em;
+    height: 250px;
+    display: flex;
+    max-width: 980px;
+    margin:auto;
+    background-color:rgb(241, 241, 233) !important;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+#Depoimentos #Desc {
+    padding-top: 50px;
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size:2em;
+    text-align: center;
+}
+
+.ItemTrata{
+    background-color:rgb(33, 117, 115) !important
+}
+
+.ItemTrata2{
+    background-color: rgb(40, 129, 127) !important
+}
+
+#Depoimentos #DescDepoimentos div {
+    font-family: 'Roboto Mono', monoespaçado;
+    font-size:1em;
+    height: 150px;
+    width: 316.6px;
+    text-align: center;
+}
+
+
+
+#ContatoDiv {
+    align-items: flex-start;
+    gap: 20px;
+    margin:auto;
+    padding: 10px;
+    height: 250px;
+}
+
+#Contato {
+    font-family: 'Roboto Mono', monoespaçado;
+    margin:auto;
+    flex-direction: column;
+    max-width: 980px;
+    height: 480px;
+    color: white;
+}
+
+#TrataDiv2{
+    background-color:rgb(241, 241, 233) !important ;
+}
+
+
+#Contato #ContatoForm{
+    text-align: right;
+    width: 475px;
+}
+
+#Contato #ContatoInfo{
+    text-align: left;
+    width: 450px;
+}
+
+#ContatoForm input, textarea{
+    outline: 0 !important;
+    border: 2px solid white !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    
+}
+
+::placeholder {
+    color: white !important;
+}
+
+button{
+    
+    background-color: white !important;
+    color: rgb(33, 117, 115) !important;
+}
+
+button:hover{
+    background-color: rgb(33, 117, 115) !important;
+    color: white !important;
+    transition: 1s ;
+} 
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 233);
+}
+
